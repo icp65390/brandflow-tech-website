@@ -60,8 +60,8 @@ With F12 open, click the **Console** tab. Every tracked click prints a line like
 |---|---|---|
 | Mero Hisab manual PDF | `index.html`, card `id="manual-mero-hisab"` | Put the PDF address in **both** buttons' `data-manual-url=""` |
 | GoldShop manual PDF | `index.html`, card `id="manual-goldshop"` | Same as above |
-| Website address | `index.html` `<head>`: `[WEBSITE_URL]` (canonical + og:url) | Replace with the final address |
-| Share image | `index.html` `<head>`: `[OG_IMAGE_URL]` | A 1200 × 630 image, full URL |
+| Website address | `index.html` `<head>` (canonical, og:url, og:image, twitter:image) | Already set to https://icp65390.github.io/brandflow-tech-website/ — change only if you connect your own domain |
+| Share image | `assets/og-image.png` | Already made (1200 × 630) |
 | Analytics | `index.html` `<head>`, "ANALYTICS PLACEHOLDER" comment | Paste your Google Analytics 4 snippet |
 | Contact form service | `script.js`, `FORM_ENDPOINT` | See section 3 |
 
