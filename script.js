@@ -16,7 +16,7 @@
  * While empty, the form does NOT pretend to send. It tells the visitor that
  * online sending is not active yet, and offers email/phone instead.
  */
-var FORM_ENDPOINT = "";
+var FORM_ENDPOINT = "https://api.web3forms.com/submit";
 var WEB3FORMS_ACCESS_KEY = "ce83321f-93a0-4cb5-b28c-ad2f1915ed07"; // only needed for Web3Forms
 
 /* Where a visitor's message goes when they choose "send by email". */
