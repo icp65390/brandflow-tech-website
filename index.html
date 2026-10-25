@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BrandFlow Tech Pvt. Ltd. | मेरो हिसाब र नेपाल गोल्डशप व्यवस्थापन प्रणाली</title>
+  <meta name="description" content="BrandFlow Tech Pvt. Ltd. — भरतपुर, चितवनको सफ्टवेयर कम्पनी। मेरो हिसाब (परिवार, समूह, संस्था र साना पसलको अनलाइन हिसाब-किताब) र नेपाल गोल्डशप व्यवस्थापन प्रणाली (सुनचाँदी पसलको बिक्री, स्टक, कालिगढ र लेखा)।">
+  <meta name="keywords" content="BrandFlow Tech, मेरो हिसाब, Mero Hisab, Nepal GoldShop Management System, नेपाल गोल्डशप, सुनपसल सफ्टवेयर, नेपाली हिसाब app, SaaS Nepal">
+  <meta name="author" content="BrandFlow Tech Pvt. Ltd.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0E1B4D">
+
+  <!-- PLACEHOLDER: replace [WEBSITE_URL] with the final address, e.g. https://www.example.com/ -->
+  <link rel="canonical" href="[WEBSITE_URL]">
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BrandFlow Tech Pvt. Ltd.">
+  <meta property="og:locale" content="ne_NP">
+  <meta property="og:title" content="BrandFlow Tech Pvt. Ltd. | नेपाली व्यवसायका लागि व्यावहारिक डिजिटल समाधान">
+  <meta property="og:description" content="मेरो हिसाब र नेपाल गोल्डशप व्यवस्थापन प्रणाली — नेपाली भाषामा, Browser मै चल्ने Cloud Software।">
+  <meta property="og:url" content="[WEBSITE_URL]">
+  <!-- PLACEHOLDER: a 1200×630 share image, full URL, e.g. https://www.example.com/assets/og-image.png -->
+  <meta property="og:image" content="[OG_IMAGE_URL]">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BrandFlow Tech Pvt. Ltd.">
+  <meta name="twitter:description" content="मेरो हिसाब र नेपाल गोल्डशप व्यवस्थापन प्रणाली — नेपाली व्यवसायका लागि सफ्टवेयर।">
+
+  <!-- Favicon (generated from the BrandFlow mark — replace with final files if you have them) -->
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <!-- Fonts are self-hosted in assets/fonts (no Google Fonts request needed) -->
+  <link rel="preload" href="assets/fonts/mukta-devanagari-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/mukta-devanagari-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+  <!-- ANALYTICS PLACEHOLDER: paste your Google Analytics 4 (gtag.js) snippet here.
+       script.js already sends every data-kpi click as a GA4 event when gtag is present. -->
+</head>
+<body>
+
+<!-- Icon sprite (inline, no external library) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="M8 6l-6 6 6 6M16 6l6 6-6 6"/></symbol>
+    <symbol id="i-cloud" viewBox="0 0 24 24"><path d="M7 18a5 5 0 1 1 1-9.9A6 6 0 0 1 19.5 10 4 4 0 0 1 18 18z"/></symbol>
+    <symbol id="i-gem" viewBox="0 0 24 24"><path d="M6 3h12l4 6-10 12L2 9zM2 9h20M12 21L8 9l4-6 4 6z"/></symbol>
+    <symbol id="i-dash" viewBox="0 0 24 24"><path d="M3 3h8v8H3zM13 3h8v5h-8zM13 10h8v11h-8zM3 13h8v8H3z"/></symbol>
+    <symbol id="i-cpu" viewBox="0 0 24 24"><path d="M7 7h10v10H7zM10 2v3M14 2v3M10 19v3M14 19v3M2 10h3M2 14h3M19 10h3M19 14h3"/></symbol>
+    <symbol id="i-db" viewBox="0 0 24 24"><path d="M4 6c0-1.7 3.6-3 8-3s8 1.3 8 3-3.6 3-8 3-8-1.3-8-3zM4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></symbol>
+    <symbol id="i-license" viewBox="0 0 24 24"><path d="M4 4h16v12H4zM8 8h8M8 12h5M14 16l1 5 2-1.5 2 1.5 1-5"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 4h16v11H9l-5 4z"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5zM3 13l9 5 9-5"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></symbol>
+    <symbol id="i-grad" viewBox="0 0 24 24"><path d="M2 9l10-5 10 5-10 5zM6 11v5c3 2 9 2 12 0v-5"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5V16h8v-2.5A6 6 0 0 0 12 3z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 22s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12zM12 12a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></symbol>
+    <symbol id="i-wallet" viewBox="0 0 24 24"><path d="M3 7h15a3 3 0 0 1 3 3v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7zM3 7l2-3h11l2 3M16 14h2"/></symbol>
+    <symbol id="i-history" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7L3 8M3 3v5h5M12 7v5l3 2"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><path d="M5 11h14v10H5zM8 11V7a4 4 0 0 1 8 0v4"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></symbol>
+    <symbol id="i-bank" viewBox="0 0 24 24"><path d="M3 10l9-6 9 6M5 10v8M9 10v8M15 10v8M19 10v8M3 20h18"/></symbol>
+    <symbol id="i-safe" viewBox="0 0 24 24"><path d="M4 6h16v14H4zM8 6V3h8v3M12 11v5M9.5 13.5h5"/></symbol>
+    <symbol id="i-swap" viewBox="0 0 24 24"><path d="M7 7h13l-4-4M17 17H4l4 4"/></symbol>
+    <symbol id="i-scale" viewBox="0 0 24 24"><path d="M12 3v18M5 7h14M5 7l-3 7a3 3 0 0 0 6 0zM19 7l-3 7a3 3 0 0 0 6 0zM8 21h8"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM2 21v-1a6 6 0 0 1 12 0v1M16 3.5a4 4 0 0 1 0 7.5M22 21v-1a6 6 0 0 0-4-5.6"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 4h11a3 3 0 0 1 3 3v13H7a3 3 0 0 1-3-3zM18 20H7a3 3 0 0 1 0-6h11"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24"><path d="M21 8l-9-5-9 5 9 5 9-5zM3 8v8l9 5 9-5V8M12 13v8"/></symbol>
+    <symbol id="i-receipt" viewBox="0 0 24 24"><path d="M6 2h12v20l-3-2-3 2-3-2-3 2zM9 7h6M9 11h6M9 15h4"/></symbol>
+    <symbol id="i-trend" viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8M15 7h6v6"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21a8 8 0 0 1 16 0"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><path d="M3 6h11v10H3zM14 9h4l3 3v4h-7M7 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM17 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M3 12a9 9 0 0 1 15-6.7L21 8M21 3v5h-5M21 12a9 9 0 0 1-15 6.7L3 16M3 21v-5h5"/></symbol>
+    <symbol id="i-tool" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></symbol>
+    <symbol id="i-idcard" viewBox="0 0 24 24"><path d="M3 5h18v14H3zM8 12a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM5 16a3 3 0 0 1 6 0M14 9h4M14 13h4"/></symbol>
+    <symbol id="i-calc" viewBox="0 0 24 24"><path d="M5 2h14v20H5zM8 6h8v3H8zM8 13h1M12 13h1M8 17h1M12 17h1M16 13v4"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6zM9 12l2 2 4-4"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4zM10 21h4"/></symbol>
+    <symbol id="i-msg" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.8 7L4 20l1.1-4.6A8 8 0 1 1 21 12z"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-3 2a11 11 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A17 17 0 0 1 3 6a2 2 0 0 1 2-2"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="M3 5h18v14H3zM3 6l9 7 9-7"/></symbol>
+    <symbol id="i-store" viewBox="0 0 24 24"><path d="M3 9l2-5h14l2 5M3 9h18v2a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0zM5 13v8h14v-8"/></symbol>
+    <symbol id="i-manual" viewBox="0 0 24 24"><path d="M2 5h7a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H2zM22 5h-7a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h8z"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M4 19h16"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM10 8.5v7l6-3.5z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip-link" href="#main">मुख्य सामग्रीमा जानुहोस्</a>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a class="brand" href="#home" aria-label="BrandFlow Tech Pvt. Ltd. — गृहपृष्ठ">
+      <img src="assets/brandflow-logo.png" alt="BrandFlow Tech Pvt. Ltd." width="1200" height="236">
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="मुख्य मेनु">
+      <a href="#about">हाम्रोबारे</a>
+      <a href="#objectives">उद्देश्य</a>
+      <a href="#products" data-kpi="product_page_visit">उत्पादनहरू</a>
+      <a href="#mero-hisab" data-kpi="product_page_visit:mero_hisab">मेरो हिसाब</a>
+      <a href="#goldshop" data-kpi="product_page_visit:goldshop">गोल्डशप</a>
+      <a href="#docs">User Manual</a>
+      <a href="#why">किन हामी</a>
+      <a href="#contact">सम्पर्क</a>
+      <div class="mobile-panel-cta">
+        <a class="btn btn--ghost" href="tel:+9779855065390" data-kpi="phone_click">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-phone"/></svg>9855065390</a>
+        <a class="btn btn--primary" href="#contact" data-kpi="demo_request">डेमो अनुरोध</a>
+      </div>
+    </nav>
+
+    <div class="header-cta">
+      <a class="btn btn--ghost header-phone" href="tel:+9779855065390" data-kpi="phone_click">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-phone"/></svg>9855065390</a>
+      <a class="btn btn--primary" href="#contact" data-kpi="demo_request">डेमो अनुरोध</a>
+    </div>
+
+    <button class="nav-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="मेनु खोल्नुहोस्">
+      <svg class="icon-open" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><use href="#i-menu"/></svg>
+      <svg class="icon-close" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><use href="#i-close"/></svg>
+      <span>मेनु</span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ================= 1. HOME / HERO ================= -->
+<section class="hero" id="home" aria-labelledby="hero-title">
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <div class="hero-badge"><span>SaaS</span>भरतपुर, चितवन · नेपाली व्यवसायका लागि सफ्टवेयर</div>
+      <h1 id="hero-title">हिसाब-किताबदेखि सुनपसलसम्म — नेपाली व्यवसायका लागि व्यावहारिक डिजिटल समाधान</h1>
+      <p class="hero-lead"><strong>BrandFlow Tech Pvt. Ltd.</strong> Web Application, Cloud-based SaaS र Business Management Software विकास गर्ने नेपाली प्रविधि कम्पनी हो। हाम्रा सफ्टवेयर Browser मै चल्छन् — कम्प्युटर वा मोबाइल, जहाँबाट पनि।</p>
+      <div class="btn-row">
+        <a class="btn btn--primary btn--lg" href="#products" data-kpi="product_page_visit">हाम्रा उत्पादनहरू हेर्नुहोस्
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn--ghost btn--lg" href="#contact" data-kpi="contact_inquiry">सम्पर्क गर्नुहोस्</a>
+      </div>
+      <div class="hero-products">
+        <a class="card mini-product" href="#mero-hisab" data-kpi="product_page_visit:mero_hisab">
+          <span class="icon-box icon-box--blue"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-wallet"/></svg></span>
+          <span><strong>मेरो हिसाब</strong><small>परिवार, समूह, संस्था र साना पसलको अनलाइन हिसाब-किताब</small></span>
+        </a>
+        <a class="card mini-product" href="#goldshop" data-kpi="product_page_visit:goldshop">
+          <span class="icon-box icon-box--gold"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-gem"/></svg></span>
+          <span><strong>नेपाल गोल्डशप व्यवस्थापन प्रणाली</strong><small>सुनचाँदी पसलको बिक्री, स्टक, कालिगढ र लेखा एकै ठाउँमा</small></span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Product preview illustration (decorative mock-up, no real data) -->
+    <div class="hero-visual" role="img" aria-label="मेरो हिसाब र गोल्डशप सफ्टवेयरको झलक">
+      <div class="preview-window" aria-hidden="true">
+        <div class="preview-bar"><i></i><i></i><i></i><span class="preview-url">merohisab.duckdns.org</span></div>
+        <div class="preview-body">
+          <div class="preview-side">
+            <span class="on">गृहपृष्ठ</span><span>पैसा आयो</span><span>पैसा खर्च भयो</span><span>मासिक रिपोर्ट</span><span>बजेट</span><span>बचत (FD)</span><span>Net Worth</span>
+          </div>
+          <div class="preview-main">
+            <div class="preview-title">यो महिनाको सारांश <small>BS · वि.सं.</small></div>
+            <div class="preview-tiles">
+              <div class="preview-tile">आम्दानी<i style="width:70%;background:#4FD1C5"></i></div>
+              <div class="preview-tile">खर्च<i style="width:46%;background:#F59E8B"></i></div>
+              <div class="preview-tile">मौज्दात · नगद + बैंक + eSewa<i style="width:82%;background:#7C9BFF"></i></div>
+              <div class="preview-tile">बचत<i style="width:58%;background:#B494FF"></i></div>
+            </div>
+            <div class="preview-bill">
+              <div><span>बिक्री बिल</span><span class="mono">S-2083/84-000001</span></div>
+              <i style="width:90%"></i><i style="width:64%"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rate-card" aria-hidden="true">
+        <header><span>Daily Gold Rate</span><span class="tag-gold">GoldShop</span></header>
+        <div class="rate-fields">
+          <div><span>Metal Type</span><b>Gold</b></div>
+          <div><span>Rate Type</span><b>Sell</b></div>
+          <div><span>Purity</span><b>24K</b></div>
+          <div><span>Rate per Gram</span><b class="empty">रु. ——</b></div>
+        </div>
+      </div>
+      <img class="hero-mark" src="assets/brandflow-mark.png" alt="" aria-hidden="true" width="323" height="213">
+    </div>
+  </div>
+</section>
+
+<!-- ================= 2. ABOUT ================= -->
+<section class="section" id="about" aria-labelledby="about-title">
+  <div class="container grid grid-2" style="gap:56px;align-items:start">
+    <div class="stack" style="gap:20px">
+      <span class="eyebrow">हाम्रोबारे · ABOUT</span>
+      <h2 class="h2" id="about-title">नेपालमै बनेको, नेपाली व्यवसायको कामअनुसार डिजाइन गरिएको सफ्टवेयर</h2>
+      <p class="lead">BrandFlow Tech Pvt. Ltd. Computer Software, Web, Mobile, Desktop र Cloud-based Application को डिजाइन, विकास, परीक्षण, सञ्चालन र मर्मतसम्भार गर्ने Private Limited Company हो। SaaS आधारित Cloud Platform मार्फत व्यक्ति, व्यवसाय, संस्था तथा कम्पनीहरूलाई Subscription वा License मा सफ्टवेयर सेवा उपलब्ध गराउनु हाम्रो मुख्य काम हो।</p>
+      <p class="lead">हाम्रा दुई उत्पादन — <strong style="color:var(--navy)">मेरो हिसाब</strong> र <strong style="color:var(--navy)">नेपाल गोल्डशप व्यवस्थापन प्रणाली</strong> — नेपाली भाषा, विक्रम संवत् र स्थानीय कारोबारको ढाँचालाई केन्द्रमा राखेर बनाइएका हुन्।</p>
+    </div>
+    <dl class="facts">
+      <div><dt>कम्पनीको प्रकार</dt><dd>Private Limited Company</dd></div>
+      <div><dt>Registered Office</dt><dd>भरतपुर महानगरपालिका–१२, चितवन</dd></div>
+      <div><dt>संस्थापक</dt><dd>ईश्वरचन्द्र पौड्याल</dd></div>
+      <div><dt>सेवा क्षेत्र</dt><dd>नेपालभर, र प्रचलित कानूनअनुसार विदेशमा पनि</dd></div>
+      <div class="wide"><dt>मुख्य कार्यक्षेत्र</dt>
+        <dd class="chip-row">
+          <span class="chip">Software Development</span><span class="chip">SaaS</span><span class="chip">Business Management Software</span><span class="chip">AI / Machine Learning</span><span class="chip">Cloud र Database</span><span class="chip">IT Consulting</span>
+        </dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<!-- ================= 3. COMPANY OBJECTIVES (14 official) ================= -->
+<section class="section section--white" id="objectives" aria-labelledby="obj-title">
+  <div class="container stack" style="gap:48px">
+    <div class="row-head">
+      <div class="stack" style="gap:14px;max-width:720px">
+        <span class="eyebrow">कम्पनीका उद्देश्य · OBJECTIVES</span>
+        <h2 class="h2" id="obj-title">कम्पनीका मुख्य उद्देश्यहरू</h2>
+      </div>
+      <p class="small-muted" style="max-width:440px;font-size:16px">कम्पनी दर्ताको संस्थागत संरचनामा उल्लेख भएबमोजिम कम्पनीका आधिकारिक उद्देश्यहरू।</p>
+    </div>
+    <ol class="grid objectives-grid">
+      <li class="card objective">
+        <div class="objective-top"><span class="icon-box"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-code"/></svg></span><span class="objective-num">०१</span></div>
+        <h3>Software Development</h3>
+        <p>Computer Software, Web Application, Mobile Application, Desktop Application, Cloud-based Application तथा अन्य Digital Technology Solutions को डिजाइन, विकास, परीक्षण, सञ्चालन, मर्मतसम्भार तथा व्यवस्थापन गर्ने।</p>
+      </li>
+      <li class="card objective">
+        <div class="objective-top"><span class="icon-box"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-cloud"/></svg></span><span class="objective-num">०२</span></div>
+        <h3>SaaS Business</h3>
+        <p>Software as a Service (SaaS) आधारित Cloud Software Platform विकास गरी व्यक्ति, व्यवसाय, संस्था तथा कम्पनीहरूलाई Subscription, License वा अन्य कानुनी व्यावसायिक मोडेलमार्फत Software सेवा उपलब्ध गराउने।</p>
+      </li>
+      <li class="card objective objective--wide">
+        <div class="objective-top"><span class="icon-box"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-gem"/></svg></span><span class="objective-num">०३</span></div>
+        <h3>Goldshop Management System</h3>
+        <p>सुनचाँदी व्यवसायका लागि Goldshop Management System विकास, बिक्री, License, Subscription, Installation, Technical Support तथा Maintenance सेवा प्रदान गर्ने। यसअन्तर्गत निम्न प्रणाली विकास तथा सञ्चालन गर्ने:</p>
+        <div class="chip-row" style="gap:6px;padding-top:4px">
+          <span class="chip-sub">Gold/Silver Inventory Management</span><span class="chip-sub">Purchase &amp; Sales Management</span><span class="chip-sub">Customer Management</span><span class="chip-sub">Supplier Management</span><span class="chip-sub">Billing/POS</span><span class="chip-sub">Barcode तथा Tag Management</span><span class="chip-sub">Stock Management</span><span class="chip-sub">Employee Management</span><span class="chip-sub">Reports &amp; Analytics</span><span class="chip-sub">Accounting Integration</span><span class="chip-sub">Cloud Data Management</span>
+        </div>
+      </li>
+      <li class="card objective">
+        <div class="objective-top"><span class="icon-box"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-dash"/></svg></span><span class="objective-num">०४</span></div>
+        <h3>Business Management Software</h3>
+        <p>विभिन्न व्यवसायका लागि Accounting, Inventory, Billing, CRM, HR, Payroll, POS, Purchase, Sales, Reporting तथा Business Intelligence सम्बन्धी Software विकास तथा उपलब्ध गराउने।</p>
+      </li>
+      <li class="card objective">
+        <div class="objective-top"><span class="icon-box"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-cpu"/></svg></span><span class="objective-num">०५</span></div>
+        <h3>Artificial Intelligence तथा Machine Learning</h3>
+        <p>Artificial Intelligence, Machine Learning, Data Analytics, Computer Vision, Natural Language Processing, Automation तथा अन्य आधुनिक प्रविधिमा आधारित Software तथा Digital Solutions विकास गर्ने।</p>
+      </li>
+      <li class="card objective">
+        <div class="objective-top"><span class="icon-box"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-db"/></svg></span><span class="objective-num">०६</span></div>
+        <h3>Cloud तथा Database Services</h3>
+        <p>Cloud Computing, Database Management, Data Storage, Backup, API, Server Management, Hosting तथा अन्य Cloud-based Digital Services सञ्चालन गर्ने।</p>
+      </li>
+      <li class="card objective">
+        <div class="objective-top"><span class="icon-box"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-license"/></svg></span><span class="objective-num">०७</span></div>
+        <h3>Software License तथा Subscription</h3>
+        <p>कम्पनीद्वारा विकसित Software तथा Digital Products लाई License, Subscription, SaaS तथा Enterprise Agreement लगायतका कानुनी माध्यमबाट नेपाल तथा विदेशमा उपलब्ध गराउने।</p>
+      </li>
+      <li class="card objective">
+        <div class="objective-top"><span class="icon-box"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-chat"/></svg></span><span class="objective-num">०८</span></div>
+        <h3>IT Consulting</h3>
+        <p>Information Technology सम्बन्धी Consulting, System Design, Software Implementation, Digital Transformation, Technical Support, Maintenance तथा Training सेवा प्रदान गर्ने।</p>
+      </li>
+      <li class="card objective">
+        <div class="objective-top"><span class="icon-box"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-layers"/></svg></span><span class="objective-num">०९</span></div>
+        <h3>Digital Platform</h3>
+        <p>Online तथा Internet-based Digital Platforms, Business Platforms, E-Commerce Platforms तथा अन्य Digital Services विकास तथा सञ्चालन गर्ने।</p>
+      </li>
+      <li class="card objective">
+        <div class="objective-top"><span class="icon-box"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-link"/></svg></span><span class="objective-num">१०</span></div>
+        <h3>Software Integration</h3>
+        <p>Banking System, Payment Gateway, Accounting Software, Government System तथा अन्य Digital Platforms सँग Software Integration तथा API-based Services विकास गर्ने।</p>
+      </li>
+      <li class="card objective">
+        <div class="objective-top"><span class="icon-box"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-grad"/></svg></span><span class="objective-num">११</span></div>
+        <h3>Training</h3>
+        <p>Software Development, AI, Machine Learning, Data Science, Digital Technology तथा IT सम्बन्धी Training, Workshop, Seminar तथा Skill Development कार्यक्रम सञ्चालन गर्ने।</p>
+      </li>
+      <li class="card objective">
+        <div class="objective-top"><span class="icon-box"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-bulb"/></svg></span><span class="objective-num">१२</span></div>
+        <h3>Research &amp; Innovation</h3>
+        <p>Artificial Intelligence, Software Engineering, Automation, Data Science तथा Digital Business सम्बन्धी Research, Development तथा Innovation गर्ने।</p>
+      </li>
+      <li class="card objective">
+        <div class="objective-top"><span class="icon-box"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-pin"/></svg></span><span class="objective-num">१३</span></div>
+        <h3>नेपालभर सेवा सञ्चालन</h3>
+        <p>Registered Office भरतपुर महानगरपालिका–१२, चितवनमा भए तापनि प्रचलित कानून तथा आवश्यक अनुमति/स्वीकृतिको अधीनमा रही नेपालका सबै प्रदेश, जिल्ला तथा स्थानीय तहमा आफ्नो Software, SaaS तथा IT Services सञ्चालन तथा उपलब्ध गराउन सक्ने।</p>
+      </li>
+      <li class="card objective">
+        <div class="objective-top"><span class="icon-box"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-globe"/></svg></span><span class="objective-num">१४</span></div>
+        <h3>अन्तर्राष्ट्रिय सेवा</h3>
+        <p>प्रचलित नेपाल कानून तथा आवश्यक स्वीकृतिको अधीनमा रही आफ्नो Software, SaaS तथा IT Services विदेशका ग्राहक तथा संस्थालाई समेत उपलब्ध गराउन सक्ने।</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ================= 4. OUR PRODUCTS ================= -->
+<section class="section" id="products" aria-labelledby="prod-title">
+  <div class="container stack" style="gap:48px">
+    <div class="stack" style="gap:14px;max-width:760px">
+      <span class="eyebrow">हाम्रा उत्पादनहरू · PRODUCTS</span>
+      <h2 class="h2" id="prod-title">दुई सफ्टवेयर, एउटै लक्ष्य: दैनिक हिसाब सजिलो र भरपर्दो बनाउने</h2>
+    </div>
+    <div class="grid grid-2">
+      <article class="card product-card">
+        <div class="product-head">
+          <span class="icon-box icon-box--blue icon-box--lg"><svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-wallet"/></svg></span>
+          <div><h3>मेरो हिसाब</h3><small>Mero Hisab · Online Accounting App</small></div>
+        </div>
+        <p style="font-size:17px;color:var(--body)">परिवार, समूह, संस्था र साना पसलका लागि बनेको नेपाली भाषाको अनलाइन हिसाब-किताब app। आम्दानी–खर्च, बचत, ऋण, सदस्यता शुल्क र पसलको बिक्री–स्टक एउटै ठाउँमा।</p>
+        <div class="stack" style="gap:10px">
+          <span class="label-sm">कसका लागि</span>
+          <div class="chip-row"><span class="chip">परिवार / घरको हिसाब</span><span class="chip">आमा समूह</span><span class="chip">टोल विकास संस्था</span><span class="chip">साना पसल</span></div>
+        </div>
+        <ul class="check-list">
+          <li><svg width="20" height="20" fill="none" stroke="#1F8A5B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-check"/></svg><span>एउटै खाताबाट धेरै संस्था — घर, समूह वा पसल</span></li>
+          <li><svg width="20" height="20" fill="none" stroke="#1F8A5B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-check"/></svg><span>BS (विक्रम संवत्) वा AD पात्रो; नेपाली, English, हिन्दी, भोजपुरी र मैथिली</span></li>
+          <li><svg width="20" height="20" fill="none" stroke="#1F8A5B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-check"/></svg><span>entry मेटिँदैन, रद्द मात्र हुन्छ — हरेक परिवर्तनको इतिहास</span></li>
+          <li><svg width="20" height="20" fill="none" stroke="#1F8A5B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-check"/></svg><span>नयाँ संस्थालाई ३० दिन निःशुल्क परीक्षण (Trial)</span></li>
+        </ul>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="#mero-hisab" data-kpi="product_page_visit:mero_hisab">विवरण हेर्नुहोस्</a>
+          <a class="btn btn--ghost" href="#manual-mero-hisab" data-kpi="manual_view:mero_hisab"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-manual"/></svg>User Manual</a>
+        </div>
+      </article>
+
+      <article class="card product-card">
+        <div class="product-head">
+          <span class="icon-box icon-box--gold icon-box--lg"><svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-gem"/></svg></span>
+          <div><h3>नेपाल गोल्डशप व्यवस्थापन प्रणाली</h3><small>Nepal GoldShop Management System</small></div>
+        </div>
+        <p style="font-size:17px;color:var(--body)">सुनचाँदी पसलको दैनिक काम — बिक्री, खरिद, इन्भेन्टरी, ग्राहक, कालिगढ, कर्मचारी र लेखा — सबै एउटै ठाउँमा व्यवस्थापन गर्ने अनलाइन सफ्टवेयर।</p>
+        <div class="stack" style="gap:10px">
+          <span class="label-sm">कसका लागि</span>
+          <div class="chip-row"><span class="chip chip--gold">सुनचाँदी पसल सञ्चालक (ShopOwner)</span><span class="chip chip--gold">पसल Manager</span><span class="chip chip--gold">पसलका Staff</span></div>
+        </div>
+        <ul class="check-list">
+          <li><svg width="20" height="20" fill="none" stroke="#1F8A5B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-check"/></svg><span>दैनिक सुन/चाँदी दरमा आधारित बिल — जर्ती, ज्याला, Stone Cost सहित</span></li>
+          <li><svg width="20" height="20" fill="none" stroke="#1F8A5B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-check"/></svg><span>Barcode र QR Code आफैं बन्ने इन्भेन्टरी</span></li>
+          <li><svg width="20" height="20" fill="none" stroke="#1F8A5B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-check"/></svg><span>कालिगढ Work Order, म्याद सूचना र WhatsApp Notify</span></li>
+          <li><svg width="20" height="20" fill="none" stroke="#1F8A5B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-check"/></svg><span>Role आधारित पहुँच र हरेक परिवर्तनको Audit Log</span></li>
+        </ul>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="#goldshop" data-kpi="product_page_visit:goldshop">विवरण हेर्नुहोस्</a>
+          <a class="btn btn--ghost" href="#manual-goldshop" data-kpi="manual_view:goldshop"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-manual"/></svg>User Manual</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 5. MERO HISAB ================= -->
+<section class="section section--white" id="mero-hisab" aria-labelledby="mh-title" data-track-view="mero_hisab">
+  <div class="container stack" style="gap:56px">
+    <div class="split-head">
+      <div class="stack" style="gap:16px">
+        <span class="eyebrow">उत्पादन ०१ · MERO HISAB</span>
+        <h2 class="h2 h2--lg" id="mh-title">मेरो हिसाब — घर, समूह र पसलको हिसाब नेपालीमै</h2>
+      </div>
+      <div class="stack" style="gap:18px">
+        <p class="lead">एउटै खाताबाट धेरै संस्था चलाउन मिल्छ। संस्थाको प्रकार अनुसार menu मा फरक सुविधा देखिन्छन् — ग्राहक खाता, स्टक, बिक्री र खरिद पसल प्रकारमा मात्र।</p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="https://merohisab.duckdns.org/" target="_blank" rel="noopener noreferrer" data-kpi="product_interest:mero_hisab_app">App खोल्नुहोस्
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-external"/></svg><span class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">(नयाँ ट्याबमा खुल्छ)</span></a>
+          <a class="btn btn--ghost" href="#mero-hisab-video" data-kpi="video_view:mero_hisab">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-play"/></svg>भिडियो ट्यूटोरियल</a>
+          <a class="btn btn--ghost" href="#contact" data-kpi="demo_request:mero_hisab" data-interest="mero_hisab">डेमो अनुरोध</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video tutorial (assets/video/mero-hisab-tutorial.mp4, ~3 min, 12 MB). preload="none": no video data is downloaded until the visitor presses play. -->
+    <div class="video-block" id="mero-hisab-video">
+      <div class="video-frame">
+        <video id="mh-video" controls playsinline preload="none"
+               poster="assets/video/mero-hisab-tutorial-poster.jpg"
+               aria-label="मेरो हिसाब — पूर्ण ट्यूटोरियल भिडियो">
+          <source src="assets/video/mero-hisab-tutorial.mp4" type="video/mp4">
+          तपाईंको browser ले भिडियो चलाउन सकेन। <a href="assets/video/mero-hisab-tutorial.mp4">भिडियो डाउनलोड गर्नुहोस्</a>।
+        </video>
+      </div>
+      <div class="video-info">
+        <span class="eyebrow">भिडियो ट्यूटोरियल · ३ मिनेट</span>
+        <h3 class="h3-block">मेरो हिसाब — पूर्ण ट्यूटोरियल</h3>
+        <p class="small-muted" style="font-size:16px">Browser मा Website खोल्ने र मोबाइलमा App Install गर्नेदेखि नयाँ खाता, Email Verify, लगइन, नयाँ संस्था र पात्रो/भाषा मिलाउनेसम्म — सुरु गर्न चाहिने ७ चरण।</p>
+        <ol class="chapters" aria-label="भिडियोका चरणहरू">
+          <li><button type="button" data-seek="0"><span class="mono">0:00</span>परिचय</button></li>
+          <li><button type="button" data-seek="17.8"><span class="mono">0:17</span>चरण १ · Website खोल्ने</button></li>
+          <li><button type="button" data-seek="37.5"><span class="mono">0:37</span>चरण २ · App Install</button></li>
+          <li><button type="button" data-seek="65.1"><span class="mono">1:05</span>चरण ३ · नयाँ खाता</button></li>
+          <li><button type="button" data-seek="91.8"><span class="mono">1:31</span>चरण ४ · Email Verify</button></li>
+          <li><button type="button" data-seek="106.8"><span class="mono">1:46</span>चरण ५ · लगइन</button></li>
+          <li><button type="button" data-seek="116.8"><span class="mono">1:56</span>चरण ६ · नयाँ संस्था</button></li>
+          <li><button type="button" data-seek="139.8"><span class="mono">2:19</span>चरण ७ · पात्रो र भाषा</button></li>
+          <li><button type="button" data-seek="160.8"><span class="mono">2:40</span>अब हिसाब सुरु गर्नुहोस्</button></li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="grid grid-280">
+      <div class="card feature"><div class="feature-top"><span class="icon-box icon-box--blue"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-wallet"/></svg></span></div><h3>पैसा आयो / पैसा खर्च भयो</h3><p>मिति, रकम, विषय र खाता (नगद, बैंक, eSewa…) छानेर दैनिक आम्दानी–खर्च सुरक्षित गर्नुहोस्। भविष्यको मिति राख्दा चेतावनी आउँछ।</p></div>
+      <div class="card feature"><div class="feature-top"><span class="icon-box icon-box--blue"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-history"/></svg></span></div><h3>सच्याउने / रद्द र इतिहास</h3><p>गल्ती भएको entry मेटिँदैन — कारणसहित सच्याइन्छ वा रद्द गरिन्छ। कसले, कहिले र किन बदल्यो भन्ने इतिहास सधैं रहन्छ।</p></div>
+      <div class="card feature"><div class="feature-top"><span class="icon-box icon-box--blue"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-lock"/></svg></span></div><h3>महिना बन्द</h3><p>हिसाब मिलाइसकेको महिना Admin ले बन्द गर्न सक्छन्। बन्द मितिसम्म कुनै entry थप्न, सच्याउन वा रद्द गर्न मिल्दैन।</p></div>
+      <div class="card feature"><div class="feature-top"><span class="icon-box icon-box--blue"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-chart"/></svg></span></div><h3>मासिक रिपोर्ट र बजेट</h3><p>सुरु र अन्त्यको मौज्दात, कुल आम्दानी–खर्च, ऋण र ब्याज। बजेटमा हरेक विषयको अनुमान, वास्तविक र फरक।</p></div>
+      <div class="card feature"><div class="feature-top"><span class="icon-box icon-box--blue"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-bank"/></svg></span></div><h3>खाताहरू र सुरुको मौज्दात</h3><p>नगद, बैंक, सहकारी, eSewa जस्ता हरेक खाताको हालको मौज्दात र जम्मा मौज्दात एकै पानामा।</p></div>
+      <div class="card feature"><div class="feature-top"><span class="icon-box icon-box--blue"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-safe"/></svg></span></div><h3>बचत (FD)</h3><p>मुद्दती निक्षेप खोल्ने, बन्द गर्ने र रद्द गर्ने। साँवाभन्दा बढी पाएको रकम FD ब्याजका रूपमा आम्दानीमा जान्छ।</p></div>
+      <div class="card feature"><div class="feature-top"><span class="icon-box icon-box--blue"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-swap"/></svg></span></div><h3>दिएको ऋण र लिएको ऋण</h3><p>ब्याज दर र अवधि राख्दा मासिक किस्ता (EMI) आफैं हिसाब हुन्छ; भुक्तानी ब्याज र साँवामा आफैं छुट्टिन्छ। हरेक ऋणको PDF।</p></div>
+      <div class="card feature"><div class="feature-top"><span class="icon-box icon-box--blue"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-scale"/></svg></span></div><h3>Net Worth</h3><p>जम्मा सम्पत्ति र दायित्वको फरक — धनात्मक भए हरियो, ऋणात्मक भए रातो।</p></div>
+      <div class="card feature"><div class="feature-top"><span class="icon-box icon-box--blue"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-users"/></svg></span></div><h3>Membership (सदस्यता शुल्क)</h3><p>समूहका सदस्य, शुल्क र नवीकरण मिति। म्याद नाघेका सदस्यमा चेतावनी; भुक्तानी Excel र सदस्यको PDF।</p></div>
+      <div class="card feature"><div class="feature-top"><span class="icon-box icon-box--blue"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-book"/></svg></span><span class="tag-shop">पसल प्रकारमा</span></div><h3>ग्राहक र सप्लायर खाता</h3><p>उधारो दिने/लिने, भुक्तानी र बाँकी। हरेक ग्राहक वा सप्लायरको खाता विवरण PDF मा।</p></div>
+      <div class="card feature"><div class="feature-top"><span class="icon-box icon-box--blue"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-box"/></svg></span><span class="tag-shop">पसल प्रकारमा</span></div><h3>सामान र स्टक</h3><p>एकाइ, खरिद/बिक्री दर र कम स्टक सीमा। स्टक कम भए चेतावनी, र हरेक सामानको स्टक लेजर।</p></div>
+      <div class="card feature"><div class="feature-top"><span class="icon-box icon-box--blue"><svg width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-receipt"/></svg></span><span class="tag-shop">पसल प्रकारमा</span></div><h3>बिक्री र खरिद बिल</h3><p>नगद वा उधारो बिल, छुटसहित। बिल नम्बर आफैं बन्छ (S-2083/84-000001) र बिल PDF WhatsApp मा पठाउन मिल्छ।</p></div>
+    </div>
+
+    <div class="grid grid-2">
+      <div class="panel panel--dark">
+        <h3 class="h3-block">प्रयोगकर्ताका लागि फाइदा</h3>
+        <ul class="check-list" style="gap:14px;line-height:1.65">
+          <li><svg width="20" height="20" fill="none" stroke="#7FE0C6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-check"/></svg><span>एउटै खाताबाट धेरै संस्था — आफ्नो घरको हिसाब, आमा समूह, टोल विकास संस्था, पसल।</span></li>
+          <li><svg width="20" height="20" fill="none" stroke="#7FE0C6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-check"/></svg><span>BS वा AD पात्रो; आर्थिक वर्ष साउन १ देखि असार मसान्तसम्म।</span></li>
+          <li><svg width="20" height="20" fill="none" stroke="#7FE0C6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-check"/></svg><span>भाषा: नेपाली, English, हिन्दी, भोजपुरी र मैथिली।</span></li>
+          <li><svg width="20" height="20" fill="none" stroke="#7FE0C6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-check"/></svg><span>नगद आधारमा हिसाब — उधारो बिक्री ग्राहकले तिरेपछि मात्र आम्दानी।</span></li>
+          <li><svg width="20" height="20" fill="none" stroke="#7FE0C6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-check"/></svg><span>सबै PDF नेपाली अक्षर र अङ्कमा बन्छन्, WhatsApp मा सिधै पठाउन मिल्छ।</span></li>
+          <li><svg width="20" height="20" fill="none" stroke="#7FE0C6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-check"/></svg><span>सदस्यता सकिए पनि कुनै डाटा मेटिँदैन — पुरानो हिसाब र रिपोर्ट हेर्न मिल्छ।</span></li>
+        </ul>
+        <div class="panel-foot">
+          <strong>वार्षिक सदस्यता</strong>
+          <span>भुक्तानी: eSewa · Khalti · बैंक · नगद</span>
+          <a href="#contact" data-kpi="contact_inquiry:pricing" data-interest="mero_hisab">मूल्य तथा Subscription सम्बन्धी जानकारीका लागि सम्पर्क गर्नुहोस्।</a>
+        </div>
+      </div>
+      <div class="panel panel--light">
+        <h3 class="h3-block">भूमिका र अनुमति</h3>
+        <div class="role-table">
+          <div class="role-row"><b>Admin</b><span>सबै: entry चढाउने, सच्याउने, रद्द गर्ने, महिना बन्द गर्ने, सदस्य/ग्राहक/सामान थप्ने, भुक्तानी प्रमाण पठाउने</span></div>
+          <div class="role-row"><b>Treasurer<small>कोषाध्यक्ष</small></b><span>Admin जस्तै हिसाबका काम (महिना बन्द बाहेक)</span></div>
+          <div class="role-row"><b>Member<small>सदस्य</small></b><span>हिसाब, रिपोर्ट, खाता र PDF हेर्ने मात्र</span></div>
+        </div>
+        <p class="small-muted">हरेक संस्थाको डाटा अलग रहन्छ — एउटा संस्थाको सदस्यले अर्को संस्थाको हिसाब देख्न सक्दैन।</p>
+      </div>
+    </div>
+
+    <div class="stack" style="gap:24px">
+      <h3 class="h3-block" style="font-size:24px">सुरु गर्ने क्रम · User Workflow</h3>
+      <ol class="steps">
+        <li class="step"><span class="step-n">१</span><b>खाता खोल्नुहोस्</b><span>इमेल, फोन र पासवर्ड राख्नुहोस्; इमेलमा आएको लिङ्कले पुष्टि गर्नुहोस्।</span></li>
+        <li class="step"><span class="step-n">२</span><b>संस्था बनाउनुहोस्</b><span>नाम र प्रकार छान्नुहोस् — बनाउने व्यक्ति स्वतः Admin, ३० दिन Trial सुरु।</span></li>
+        <li class="step"><span class="step-n">३</span><b>सुरुको मौज्दात</b><span>नगद र बैंकको सुरुको मौज्दात; पसलमा सुरुको स्टक, ग्राहक र सप्लायर।</span></li>
+        <li class="step"><span class="step-n">४</span><b>दैनिक entry र बिल</b><span>पैसा आयो / खर्च भयो, वा बिक्री र खरिद पानाबाट बिल।</span></li>
+        <li class="step"><span class="step-n">५</span><b>रिपोर्ट र महिना बन्द</b><span>मासिक रिपोर्ट, बजेट र Net Worth हेर्नुहोस्; मिलेपछि महिना बन्द।</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 6. NEPAL GOLDSHOP ================= -->
+<section class="section section--gold" id="goldshop" aria-labelledby="gs-title" data-track-view="goldshop">
+  <div class="container stack" style="gap:64px">
+    <div class="split-head">
+      <div class="stack" style="gap:16px">
+        <span class="eyebrow eyebrow--gold">उत्पादन ०२ · NEPAL GOLDSHOP</span>
+        <h2 class="h2 h2--lg" id="gs-title">नेपाल गोल्डशप व्यवस्थापन प्रणाली — सुनपसलको पूरा कारोबार, एउटै System मा</h2>
+      </div>
+      <div class="stack" style="gap:18px">
+        <p class="lead">दैनिक दरदेखि बिल, बाइब्याक, कालिगढ, तलब र लेखासम्म। इन्टरनेट भएको कुनै पनि कम्प्युटर, ल्यापटप वा मोबाइलबाट चलाउन सकिन्छ।</p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="#manual-goldshop" data-kpi="manual_view:goldshop"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-manual"/></svg>User Manual हेर्नुहोस्</a>
+          <a class="btn btn--ghost btn--ghost-gold" href="https://goldshop-erp-2cwhxi7s7a-el.a.run.app/" target="_blank" rel="noopener noreferrer" data-kpi="product_interest:goldshop_app">App खोल्नुहोस्
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-external"/></svg><span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">(नयाँ ट्याबमा खुल्छ)</span></a>
+          <a class="btn btn--ghost btn--ghost-gold" href="#contact" data-kpi="demo_request:goldshop" data-interest="goldshop">डेमो अनुरोध</a>
+        </div>
+        <p class="small-muted" style="font-size:14.5px">Login का लागि इमेल र पासवर्ड पसलको Owner वा SuperAdmin ले दिनुहुन्छ।</p>
+      </div>
+    </div>
+
+    <div class="stack" style="gap:20px">
+      <div class="pair-head" aria-hidden="true"><span>व्यवसायको चुनौती</span><span>सफ्टवेयरको समाधान</span></div>
+      <div class="stack" style="gap:12px">
+        <div class="card pair"><div class="pair-problem"><span><span class="pair-label-mobile">चुनौती</span>सुन/चाँदीको दर हरेक दिन फरक पर्छ।</span></div><div class="pair-solution"><b>Daily Gold Rate</b><span>Metal, Buy/Sell र Purity (24K, 22K, Standard) अनुसार प्रति ग्राम दर। यही दर बिक्री बिल र इन्भेन्टरी मूल्याङ्कनको आधार।</span></div></div>
+        <div class="card pair"><div class="pair-problem"><span><span class="pair-label-mobile">चुनौती</span>जर्ती, ज्याला, पत्थर र करसहितको बिल हातले बनाउन झन्झटिलो।</span></div><div class="pair-solution"><b>Sales &amp; Orders</b><span>Gross Weight, Jarti, Rate per 10 gram, Jyala, Stone Cost र Skill Tax (0.5%) सहितको Invoice — PDF, Print वा WhatsApp।</span></div></div>
+        <div class="card pair"><div class="pair-problem"><span><span class="pair-label-mobile">चुनौती</span>कालिगढलाई दिएको काम कहिले फर्किन्छ भन्ने ट्र्याक गर्न गाह्रो।</span></div><div class="pair-solution"><b>Kaligar Management</b><span>Work Order, Planned Item र Delivery Date; म्याद नाघे वा ३ दिनभित्र भए Sidebar मा सूचना र WhatsApp बाट Notify Kaligar।</span></div></div>
+        <div class="card pair"><div class="pair-problem"><span><span class="pair-label-mobile">चुनौती</span>पुरानो गहना फिर्ता किन्दा refine कटौती र भुक्तानीको हिसाब।</span></div><div class="pair-solution"><b>Buyback</b><span>Net Weight = Gross Weight × (१ − Refine%), Payout = Net Weight × Rate आफैं गणना; दुई प्रतिको भरपाई रसिद PDF।</span></div></div>
+        <div class="card pair"><div class="pair-problem"><span><span class="pair-label-mobile">चुनौती</span>कच्चा सुन/चाँदी कति छ, कहाँ गयो भन्ने स्पष्ट नहुनु।</span></div><div class="pair-solution"><b>Gold Stock Ledger</b><span>Purchase, Buyback र Kaligar का कारोबार आफैं रेकर्ड — Metal र Purity अनुसार वर्तमान Stock र Balance।</span></div></div>
+        <div class="card pair"><div class="pair-problem"><span><span class="pair-label-mobile">चुनौती</span>कसले, कहिले, के बदल्यो भन्ने प्रमाण नहुनु।</span></div><div class="pair-solution"><b>Audit Log</b><span>सामान थपेको, मेटाएको, दर बदलेको, बिल बनाएको — हरेक महत्त्वपूर्ण परिवर्तन स्वतः रेकर्ड।</span></div></div>
+      </div>
+    </div>
+
+    <div class="modules-wrap">
+      <div class="modules">
+        <h3 class="h3-block" style="font-size:24px">मुख्य Module हरू</h3>
+        <div class="grid grid-250">
+          <div class="card module"><div class="module-top"><span class="icon-box icon-box--gold"><svg width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-dash"/></svg></span><b>Dashboard</b></div><p>Today’s Sales, Net Profit, Active Inventory KPI Cards र पछिल्लो ३० दिनको Market Rate Trends ग्राफ।</p></div>
+          <div class="card module"><div class="module-top"><span class="icon-box icon-box--gold"><svg width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-trend"/></svg></span><b>Daily Gold Rate</b></div><p>सुन र चाँदीको Buy/Sell दर Purity अनुसार; Edit/Delete Audit Log मा रेकर्ड।</p></div>
+          <div class="card module"><div class="module-top"><span class="icon-box icon-box--gold"><svg width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-receipt"/></svg></span><b>Sales &amp; Orders</b></div><p>ग्राहक, सामान, Discount, Labour Charge र Payment Method सहित Invoice।</p></div>
+          <div class="card module"><div class="module-top"><span class="icon-box icon-box--gold"><svg width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-box"/></svg></span><b>Inventory</b></div><p>Ring, Necklace, Mangalsutra जस्ता Category; Barcode/QR आफैं; Stock Adjustment कारणसहित।</p></div>
+          <div class="card module"><div class="module-top"><span class="icon-box icon-box--gold"><svg width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-book"/></svg></span><b>Gold Stock Ledger</b></div><p>कच्चा सुन/चाँदीको कुल तौल, हरेक Transaction मिति, प्रकार, तौल र Balance सहित।</p></div>
+          <div class="card module"><div class="module-top"><span class="icon-box icon-box--gold"><svg width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-user"/></svg></span><b>Customers</b></div><p>नयाँ ग्राहक, Initial Balance, र बिक्री, बाइब्याक, भुक्तानीको Ledger।</p></div>
+          <div class="card module"><div class="module-top"><span class="icon-box icon-box--gold"><svg width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-truck"/></svg></span><b>Purchase</b></div><p>Supplier (PAN, Contact) बाट खरिद — Inventory, Supplier Ledger, Journal Entry र Purchase Voucher PDF एकै पटक।</p></div>
+          <div class="card module"><div class="module-top"><span class="icon-box icon-box--gold"><svg width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-refresh"/></svg></span><b>Buyback</b></div><p>Refine Deduction % (सामान्यतया ५%) सहित Net Weight र Payout; Receipt (BB-2026-XXXX)।</p></div>
+          <div class="card module"><div class="module-top"><span class="icon-box icon-box--gold"><svg width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-tool"/></svg></span><b>Kaligar Management</b></div><p>Work Order सुरु, Partially Returned / Delivered स्थिति, Overdue सूचना।</p></div>
+          <div class="card module"><div class="module-top"><span class="icon-box icon-box--gold"><svg width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-idcard"/></svg></span><b>Employees</b></div><p>हाजिरी (Clock In), Salary Advance, Payroll र Payroll Receipt PDF।</p></div>
+          <div class="card module"><div class="module-top"><span class="icon-box icon-box--gold"><svg width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-calc"/></svg></span><b>Accounting</b></div><p>Expense, Trial Balance, Profit &amp; Loss, Balance Sheet, Day Book र Fixed Assets; Excel Download।</p></div>
+          <div class="card module"><div class="module-top"><span class="icon-box icon-box--gold"><svg width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-bell"/></svg></span><b>Notifications</b></div><p>Low Stock (५ भन्दा कम), Pending Approvals, Orders Due / Overdue, Kaligar Deliveries।</p></div>
+        </div>
+      </div>
+
+      <aside class="invoice" aria-label="बिक्री बिलमा देखिने विवरण">
+        <div class="invoice-head"><b>बिक्री बिल (Invoice)</b><small>PDF · Print · WhatsApp</small></div>
+        <p class="small-muted" style="font-size:14.5px">बिलमा देखिने विवरण — म्यानुअलअनुसार</p>
+        <dl>
+          <div><dt>H.S. Code</dt><dd>—</dd></div>
+          <div><dt>Code No.</dt><dd>—</dd></div>
+          <div><dt>Description</dt><dd>सामानको विवरण</dd></div>
+          <div><dt>Purity</dt><dd>शुद्धता</dd></div>
+          <div><dt>Gross Weight (g)</dt><dd>ग्रस तौल</dd></div>
+          <div><dt>Jarti (g)</dt><dd>खेर गएको सुन</dd></div>
+          <div><dt>Total Weight</dt><dd>जम्मा तौल</dd></div>
+          <div><dt>Rate per 10 gram</dt><dd>मूल्य प्रति १० ग्राम</dd></div>
+          <div><dt>Jyala</dt><dd>बनाउने ज्याला</dd></div>
+          <div><dt>Stone Cost</dt><dd>पत्थरको मूल्य</dd></div>
+          <div><dt>Taxable Amount</dt><dd>Gross Weight + Jarti</dd></div>
+          <div><dt>Non Taxable Amount</dt><dd>Stone Cost</dd></div>
+          <div><dt>Total Cost</dt><dd>जम्मा मूल्य</dd></div>
+          <div><dt>Skill Tax (0.5%)</dt><dd>Subtotal माथि स्वतः</dd></div>
+          <div><dt>Discount</dt><dd>दिइएको छुट</dd></div>
+          <div><dt>Advance Amount</dt><dd>अग्रिम</dd></div>
+          <div class="total"><dt>Total Amount</dt><dd>अन्तिम तिर्नुपर्ने रकम</dd></div>
+        </dl>
+        <p class="invoice-note">बिल बनेपछि सम्बन्धित सामानको Quantity Inventory बाट स्वतः घट्छ; एउटै सामान दोहोरो बेचिने कुरा System आफैं जाँच्छ।</p>
+      </aside>
+    </div>
+
+    <div class="grid grid-2">
+      <div class="panel panel--gold">
+        <h3 class="h3-block">पसलको दैनिक क्रम · User Workflow</h3>
+        <ol class="timeline">
+          <li><div class="timeline-rail"><span>१</span><i></i></div><div class="timeline-text"><b>बिहान दैनिक दर</b><span>पसल खोल्नासाथ सुन/चाँदीको Buy र Sell दर Purity अनुसार प्रविष्ट गर्नुहोस्।</span></div></li>
+          <li><div class="timeline-rail"><span>२</span><i></i></div><div class="timeline-text"><b>सामान Inventory मा</b><span>Item, Category, Gross Weight, Purity र Making Charge — Save गर्दा Barcode र QR Code आफैं।</span></div></li>
+          <li><div class="timeline-rail"><span>३</span><i></i></div><div class="timeline-text"><b>बिक्री बिल</b><span>ग्राहक र सामान (Barcode वा नाम) छानी Invoice बनाउनुहोस्; Inventory आफैं घट्छ।</span></div></li>
+          <li><div class="timeline-rail"><span>४</span><i></i></div><div class="timeline-text"><b>खरिद, बाइब्याक, कालिगढ</b><span>यी कारोबारबाट Gold Stock Ledger र ग्राहक/Supplier Ledger आफैं अपडेट हुन्छन्।</span></div></li>
+          <li><div class="timeline-rail"><span>५</span><i></i></div><div class="timeline-text"><b>लेखा र रिपोर्ट</b><span>Trial Balance, Profit &amp; Loss, Balance Sheet र Day Book — छुट्टै Entry बिना।</span></div></li>
+        </ol>
+      </div>
+      <div class="panel panel--gold">
+        <h3 class="h3-block">Role अनुसार पहुँच</h3>
+        <div class="role-table role-table--gold">
+          <div class="role-row"><b>SuperAdmin</b><span>सम्पूर्ण System र सबै पसल (Tenant) व्यवस्थापन</span></div>
+          <div class="role-row"><b>ShopOwner</b><span>आफ्नो पसलको सबै Page र Setting हेर्ने/चलाउने</span></div>
+          <div class="role-row"><b>Manager</b><span>दैनिक कामकाज — बिक्री, इन्भेन्टरी, ग्राहक आदि</span></div>
+          <div class="role-row"><b>Staff</b><span>सीमित अधिकार — सामान्यतया बिक्री र इन्भेन्टरी हेर्ने/थप्ने</span></div>
+        </div>
+        <p class="small-muted">Owner वा SuperAdmin ले Manage Staff बाट नयाँ Staff थप्न, Role परिवर्तन गर्न वा Deactivate गर्न सक्छन्।</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 7. USER MANUALS / DOCUMENTATION ================= -->
+<section class="section" id="docs" aria-labelledby="docs-title">
+  <div class="container stack" style="gap:40px">
+    <div class="stack" style="gap:14px;max-width:760px">
+      <span class="eyebrow">DOCUMENTATION</span>
+      <h2 class="h2" id="docs-title">प्रयोगकर्ता पुस्तिका (User Manual)</h2>
+      <p class="lead" style="font-size:17px">दुवै उत्पादनको पूरा म्यानुअल नेपाली भाषामा — Login देखि रिपोर्ट र समस्या समाधानसम्म।</p>
+    </div>
+    <div class="grid grid-2">
+      <!-- PLACEHOLDER: put the final PDF address in data-manual-url (both buttons). Leave empty until ready. -->
+      <article class="card doc-card" id="manual-mero-hisab">
+        <div class="doc-head">
+          <span class="doc-cover doc-cover--blue"><svg width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-manual"/></svg></span>
+          <div><h3>मेरो हिसाब — User Manual</h3><small>९ खण्ड · १० पृष्ठ · नेपाली</small></div>
+        </div>
+        <div class="toc"><span>सुरुवात</span><span>दैनिक हिसाब</span><span>पैसा र सम्पत्ति</span><span>समूह र संस्था</span><span>पसलका सुविधा</span><span>सदस्यता र भुक्तानी</span><span>सुरक्षा र FAQ</span></div>
+        <div class="doc-actions">
+          <a class="btn btn--primary" href="#manual-mero-hisab" data-manual-url="" data-manual-mode="view" data-kpi="manual_view:mero_hisab">Manual हेर्नुहोस्</a>
+          <a class="btn btn--ghost" href="#manual-mero-hisab" data-manual-url="" data-manual-mode="download" data-kpi="manual_download:mero_hisab"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-download"/></svg>PDF Download</a>
+          <span class="placeholder-note" data-manual-note>[Mero Hisab Manual PDF Link — छिट्टै उपलब्ध हुनेछ]</span>
+          <a class="doc-video-link" href="#mero-hisab-video" data-kpi="video_view:mero_hisab"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-play"/></svg>३ मिनेटको भिडियो ट्यूटोरियल हेर्नुहोस्</a>
+        </div>
+      </article>
+      <article class="card doc-card" id="manual-goldshop">
+        <div class="doc-head">
+          <span class="doc-cover doc-cover--gold"><svg width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-manual"/></svg></span>
+          <div><h3>नेपाल गोल्डशप व्यवस्थापन प्रणाली — User Manual</h3><small>१७ भाग · १२ पृष्ठ · नेपाली · कर्मचारीहरूका लागि</small></div>
+        </div>
+        <div class="toc"><span>Getting Started</span><span>Dashboard</span><span>Daily Gold Rate</span><span>Sales &amp; Orders</span><span>Inventory</span><span>Buyback</span><span>Kaligar</span><span>Employees</span><span>Accounting</span><span>Troubleshooting</span></div>
+        <div class="doc-actions">
+          <a class="btn btn--primary" href="#manual-goldshop" data-manual-url="" data-manual-mode="view" data-kpi="manual_view:goldshop">Manual हेर्नुहोस्</a>
+          <a class="btn btn--ghost" href="#manual-goldshop" data-manual-url="" data-manual-mode="download" data-kpi="manual_download:goldshop"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-download"/></svg>PDF Download</a>
+          <span class="placeholder-note" data-manual-note>[GoldShop Manual PDF Link — छिट्टै उपलब्ध हुनेछ]</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 8. WHY CHOOSE US ================= -->
+<section class="section section--dark" id="why" aria-labelledby="why-title">
+  <div class="container stack" style="gap:48px">
+    <div class="row-head">
+      <div class="stack" style="gap:14px;max-width:720px">
+        <span class="eyebrow">किन BrandFlow Tech · WHY CHOOSE US</span>
+        <h2 class="h2" id="why-title">नेपाली कारोबारको भाषा, पात्रो र तरिका बुझ्ने सफ्टवेयर</h2>
+      </div>
+      <img class="why-mark" src="assets/brandflow-mark.png" alt="" aria-hidden="true" width="323" height="213">
+    </div>
+    <div class="why-grid">
+      <div class="why-item"><span class="icon-box"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-globe"/></svg></span><h3>नेपाली भाषा र नेपाली ढाँचा</h3><p>विक्रम संवत् पात्रो, साउन–असार आर्थिक वर्ष, र नेपाली अक्षर तथा अङ्कमा बन्ने PDF।</p></div>
+      <div class="why-item"><span class="icon-box"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-store"/></svg></span><h3>नेपाली कारोबारअनुसार बनेको</h3><p>सुनपसलको जर्ती, ज्याला, कालिगढ र भरपाई; समूहको सदस्यता शुल्क र नगद आधारको हिसाब।</p></div>
+      <div class="why-item"><span class="icon-box"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-cloud"/></svg></span><h3>Browser मै चल्ने Cloud Software</h3><p>इन्टरनेट भएको कम्प्युटर, ल्यापटप वा मोबाइलबाट चलाउन सकिन्छ।</p></div>
+      <div class="why-item"><span class="icon-box"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-shield"/></svg></span><h3>पारदर्शी र सुरक्षित रेकर्ड</h3><p>entry मेटिँदैन, Audit Log र परिवर्तनको इतिहास; Role आधारित पहुँच र हरेक संस्थाको अलग डाटा।</p></div>
+      <div class="why-item"><span class="icon-box"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-msg"/></svg></span><h3>WhatsApp र स्थानीय भुक्तानी</h3><p>बिल, रसिद र सूचना WhatsApp बाट; सदस्यता भुक्तानी eSewa, Khalti, बैंक वा नगदबाट।</p></div>
+      <div class="why-item"><span class="icon-box"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-phone"/></svg></span><h3>प्रत्यक्ष सम्पर्क र सहयोग</h3><p>Installation, Technical Support तथा Maintenance — फोन र इमेलबाट सिधै हाम्रो टिमसँग।</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 9. CONTACT ================= -->
+<section class="section" id="contact" aria-labelledby="contact-title">
+  <div class="container contact-wrap">
+    <div class="contact-info">
+      <span class="eyebrow">सम्पर्क · CONTACT</span>
+      <h2 class="h2" id="contact-title">डेमो, जानकारी वा सहयोगका लागि सम्पर्क गर्नुहोस्</h2>
+      <p class="lead" style="font-size:17px">समस्या रिपोर्ट गर्दा पानाको screenshot र कुन संस्था/पसलमा भयो भन्ने पनि पठाउनुहोस्।</p>
+      <p class="contact-company">BrandFlow Tech Pvt. Ltd.</p>
+      <ul class="contact-list">
+        <li class="card contact-item">
+          <span class="icon-box"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-pin"/></svg></span>
+          <span><small>ठेगाना · Registered Office</small><b>भरतपुर महानगरपालिका–१२, चितवन</b></span>
+        </li>
+        <li><a class="card contact-item" href="tel:+9779855065390" data-kpi="phone_click">
+          <span class="icon-box icon-box--blue"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-phone"/></svg></span>
+          <span><small>फोन</small><b>9855065390</b></span></a></li>
+        <li><a class="card contact-item" href="mailto:brandflowpvtltd@gmail.com" data-kpi="email_click">
+          <span class="icon-box icon-box--blue"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-mail"/></svg></span>
+          <span style="min-width:0"><small>इमेल (मुख्य)</small><b>brandflowpvtltd@gmail.com</b></span></a></li>
+        <li><a class="card contact-item" href="mailto:brandflowaiml@gmail.com" data-kpi="email_click:support">
+          <span class="icon-box"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-mail"/></svg></span>
+          <span style="min-width:0"><small>सहयोग इमेल (Support)</small><b>brandflowaiml@gmail.com</b></span></a></li>
+      </ul>
+    </div>
+
+    <div class="form-card">
+      <!--
+        CONTACT FORM — NOT YET CONNECTED TO A SENDING SERVICE.
+        The form never claims a message was sent unless a real service confirms it.
+        To connect it, set FORM_ENDPOINT at the top of script.js (see README.md).
+      -->
+      <form class="form" id="contact-form" novalidate>
+        <div class="stack" style="gap:4px"><h3 class="h3-block" style="font-size:24px">सन्देश पठाउनुहोस्</h3><span class="small-muted">* चिन्ह भएका विवरण अनिवार्य छन्।</span></div>
+        <div class="form-grid">
+          <label class="field">नाम *<input class="input" type="text" name="name" required autocomplete="name" placeholder="तपाईंको पूरा नाम"></label>
+          <label class="field">व्यवसाय / संस्था<input class="input" type="text" name="organization" autocomplete="organization" placeholder="पसल वा संस्थाको नाम"></label>
+          <label class="field">इमेल *<input class="input" type="email" name="email" required autocomplete="email" placeholder="name@example.com"></label>
+          <label class="field">फोन *<input class="input" type="tel" name="phone" required autocomplete="tel" inputmode="tel" placeholder="98XXXXXXXX"></label>
+        </div>
+        <fieldset>
+          <legend>रुचि भएको उत्पादन</legend>
+          <input type="hidden" name="interested_product" value="मेरो हिसाब">
+          <div class="chip-row" role="group">
+            <button type="button" class="pill" data-value="mero_hisab" data-label="मेरो हिसाब" aria-pressed="true">मेरो हिसाब</button>
+            <button type="button" class="pill" data-value="goldshop" data-label="नेपाल गोल्डशप व्यवस्थापन प्रणाली" aria-pressed="false">नेपाल गोल्डशप व्यवस्थापन प्रणाली</button>
+            <button type="button" class="pill" data-value="both" data-label="दुवै" aria-pressed="false">दुवै</button>
+            <button type="button" class="pill" data-value="other" data-label="अन्य सफ्टवेयर सेवा" aria-pressed="false">अन्य सफ्टवेयर सेवा</button>
+          </div>
+        </fieldset>
+        <label class="field">सन्देश<textarea class="input" name="message" rows="5" placeholder="डेमो, मूल्य, Installation वा अन्य जानकारी…"></textarea></label>
+        <!-- spam trap: real visitors never see or fill this -->
+        <div class="hp-field" aria-hidden="true"><label>Website<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+        <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+        <div class="form-foot">
+          <span class="small-muted" style="font-size:14px">वा सिधै फोन गर्नुहोस्: <a href="tel:+9779855065390" data-kpi="phone_click" style="font-weight:700">9855065390</a></span>
+          <button type="submit" class="btn btn--primary btn--lg" data-kpi="demo_request">पठाउनुहोस् (Submit)</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/brandflow-logo.png" alt="BrandFlow Tech Pvt. Ltd." width="1200" height="236">
+        <p class="small-muted">नेपाली व्यवसायका लागि व्यावहारिक डिजिटल समाधान।</p>
+      </div>
+      <nav class="footer-col" aria-label="उत्पादन">
+        <b>उत्पादनहरू</b>
+        <a href="#mero-hisab" data-kpi="product_page_visit:mero_hisab">मेरो हिसाब</a>
+        <a href="#goldshop" data-kpi="product_page_visit:goldshop">नेपाल गोल्डशप व्यवस्थापन प्रणाली</a>
+        <a href="#docs">User Manual</a>
+      </nav>
+      <nav class="footer-col" aria-label="कम्पनी">
+        <b>कम्पनी</b>
+        <a href="#about">हाम्रोबारे</a>
+        <a href="#objectives">उद्देश्य</a>
+        <a href="#why">किन हामी</a>
+        <a href="#contact">सम्पर्क</a>
+      </nav>
+      <address class="footer-col">
+        <b>BrandFlow Tech Pvt. Ltd.</b>
+        <span>भरतपुर महानगरपालिका–१२, चितवन</span>
+        <a href="tel:+9779855065390" data-kpi="phone_click">9855065390</a>
+        <a href="mailto:brandflowpvtltd@gmail.com" data-kpi="email_click">brandflowpvtltd@gmail.com</a>
+      </address>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 BrandFlow Tech Pvt. Ltd. All Rights Reserved.</span>
+      <span>Made in Nepal · भरतपुर, चितवन</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
