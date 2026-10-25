@@ -17,7 +17,7 @@
  * online sending is not active yet, and offers email/phone instead.
  */
 var FORM_ENDPOINT = "";
-var WEB3FORMS_ACCESS_KEY = ""; // only needed for Web3Forms
+var WEB3FORMS_ACCESS_KEY = "ce83321f-93a0-4cb5-b28c-ad2f1915ed07"; // only needed for Web3Forms
 
 /* Where a visitor's message goes when they choose "send by email". */
 var CONTACT_EMAIL = "brandflowpvtltd@gmail.com";
