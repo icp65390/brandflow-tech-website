@@ -90,13 +90,13 @@ To receive messages directly in your inbox, connect a free form service:
    ```
 4. Upload the site, send a test message, and confirm the email in Formspree.
 
-### Option 2 — Web3Forms (free plan)
-1. Go to https://web3forms.com, enter brandflowpvtltd@gmail.com, and get an Access Key.
-2. In `script.js` set:
+### Option 2 — Web3Forms (simplest)
+1. Go to https://web3forms.com, enter brandflowpvtltd@gmail.com, and get an Access Key by email.
+2. In `script.js` paste only the key:
    ```js
-   var FORM_ENDPOINT = "https://api.web3forms.com/submit";
    var WEB3FORMS_ACCESS_KEY = "your-access-key";
    ```
+   (Leave `FORM_ENDPOINT` empty — Web3Forms is then used automatically.)
 
 After connecting, the success message ("धन्यवाद! तपाईंको सन्देश प्राप्त भयो।") is shown **only**
 when the service confirms it received the message. If sending fails, the visitor is told and
